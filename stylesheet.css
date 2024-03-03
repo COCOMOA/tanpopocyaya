@@ -1,0 +1,463 @@
+@charset "UTF-8";
+html{
+font-size:100%;    
+}
+body{
+line-height:1.7; 
+color:#432;   
+}
+a{
+text-decoration:none;    
+}
+img{
+max-width:100%;  
+}
+.logo {
+    width: 400px;
+    margin-bottom: 40px;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+    font-family:"Shippori Mincho";
+}
+.main-nav a {
+ color:	#FCFAF2
+}
+.main-nav a:hover {
+    color:#f7d154;
+    
+}
+.page-header{
+display:flex;
+justify-content: space-between;
+margin-top:14px;
+}
+.wrapper{
+max-width:1100px;
+margin: 0 auto;
+padding: 0 4%;  
+}
+.page-header h1{
+ display: block;
+ font-size: 2rem;
+ margin-block-start: 0.67em;
+ margin-block-end: 0.67em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+ font-weight: bold;
+ margin-top:30px;
+ font-family:"Shippori Mincho";
+}
+.page-header a{
+ color:#FFF;
+}
+/*HOME-------------------*/
+.home-content{
+text-align:center;
+margin-top:10%;    
+}
+.home-content p{
+font-size:1.125rem;
+margin:5px 0 42px;
+color: #FFF;
+font-family:"Shippori Mincho";
+}
+.page-header h1{
+ color:#88676B;
+}
+/*ボタン-------------------*/
+.button{
+ font-size:1.375rem;
+ background:#88676b;
+ color:#fff;
+ border-radius:5px;
+ padding:18px 32px;
+ font-family:"Shippori Mincho";  
+}
+.button:hover{
+ background:#542346;
+}
+/*大きな背景-------------------*/
+.big-bg{
+ background-size:cover;
+ background-position:top;   
+}
+#home{
+background-image:url(images/home.jpg);
+min-height: 100vh;
+}
+/*NEWS-------------------*/
+#news{
+background-image:url(images/news.jpg);
+height: 270px;
+margin-bottom:40px;
+}
+#news .page-title{
+text-align:center;  
+color:#f2c530;
+font-size:60px;
+font-family:"Zen Antique Soft";
+letter-spacing:10px;
+}
+.post-title{
+font-family:"yu mincho",serif;
+font-size:2rem;
+font-weight:normal;    
+}    
+
+/*フッター-------------------*/
+footer{
+background:#542346;
+text-align:center;
+padding:26px 0;   
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+/*メインエリア*/
+.wrapper{
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 0 4%;
+}
+article{
+width:60%;
+order:2;
+}  
+.post-info{
+position: relative;
+padding-top:4px;
+margin-bottom:40px;    
+}
+.post-date {
+ background: #542346;
+ border-radius: 50px;
+ color: #fff;
+ width: 100px;
+ height: 100px;
+ font-size: 1.625rem;
+ text-align: center;
+ position: absolute;
+ top: 0;
+ padding-top: 10px;
+}
+.post-date span {
+ font-size: 1rem;
+ border-top: 1px rgba(255,255,255,.5)solid;
+ padding-top: 6px;
+ display: block;
+ width: 60%;
+ margin: 0 auto;
+}
+.post-title,
+.post-cat{
+ margin-left:120px;
+}
+article img{
+ margin-bottom:20px;
+ width:90%;
+}
+article p{
+ margin-bottom: 1rem;
+ font-size:15px;
+}
+/*サイドバー*/
+aside{
+ width:22%;
+ order:3;
+}
+.sub-title{
+ font-size:1.375rem;
+ padding: 0 8px 8px;
+ border-bottom:2px #542346 solid;
+ font-weight:normal;
+ font-family:"Shippori Mincho"; 
+}
+.sub-title h3{
+ font-family:"Shippori Mincho";  
+}
+.sub-menu{
+ margin-bottom: 60px;
+ list-style: none;
+}
+.sub-menu li{
+ border-bottom:1px #88676B solid;
+}
+.sub-menu a{
+ color:#432;
+ padding:10px;
+ display:block;  
+}
+.sub-menu a:hover{
+    color:#f2c530;
+ ;   
+}
+aside p{
+ padding: 12px 10px;
+}
+.news-content{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 50px;
+}
+/*バナー画像*/
+.ad{
+ order:1;
+}
+/*menu*/
+#menu{
+ background-image:url(images/coffe.jpg);
+ min-height:100vh;
+}
+.menu-content{
+ max-width:560px;
+ margin-top:10%;
+}
+.menu-content .page-title{
+ text-align:center;
+ color:#f2c530;
+ font-size:60px;
+ font-family:"Zen Antique Soft";
+ letter-spacing:10px;
+}
+.menu-content p{
+ font-size: 1.125rem;
+ margin: 10px 10px;
+ color:#fff;
+ font-family:"Shippori Mincho";  
+}
+.grid{
+ display:grid;
+ gap:26px;
+ grid-template-columns:1fr 1fr 1fr;
+ margin-top:6%;
+ margin-bottom:50px;
+}
+.grid p{
+ font-family:"Noto Sans Japanese";  
+}
+.big-box{
+ grid-column:1/3;
+ grid-row:1/3;
+}
+.big-box img{
+ height:94%;
+ width:100%;
+ object-fit:cover;
+}
+/*contact*/
+#contact{
+ background-image:url(images/contact.jpg);
+ min-height:100vh;
+}
+.page-title{
+    color:#f2c530;
+    font-size:60px;
+    font-family:"Zen Antique Soft";
+    letter-spacing:5px;
+}
+label{
+ font-family:"Shippori Mincho";  
+ color:#fff;
+}
+
+/*フォーム*/
+form div{
+margin-bottom:14px;
+display: block; 
+margin-top: 0em;   
+}
+label{
+ font-size:1.125rem;
+ margin-bottom:10px;
+ display:block;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+ background:rgba(255,255,255,.5); 
+ border:1px #ffff solid;
+ border-radius:5px;   
+ padding:10px;
+ font-size:1rem;
+}
+input[type="text"],
+input[type="email"]{
+ width:100%;
+ max-width:240px;
+}
+textarea{
+ width:100%;
+ max-width:240px;
+ height:6rem;
+}
+input[type="submit"]{
+ border:none;
+ cursor: pointer;
+ line-height:1;    
+}
+/*iframe*/
+iframe{
+ width:100%;
+}
+/*店舗情報・地図*/
+#location{
+ padding:4% 0;  
+}
+#location .wrapper{
+ display:flex;
+ justify-content:space-between;
+}
+.location-info{
+ width:22%;
+}
+.location-info p{
+ padding:12px 10px;   
+}
+.location-map{
+ width:74%;
+}
+/*SNS*/
+#sns{
+ background:#88676b;
+ padding:4% 0;
+}
+#sns .wrapper{
+ display: flex;
+ justify-content: space-between;    
+}
+#sns .sub-title{
+ margin-bottom:30px;   
+}
+.sns-box{
+ width:#432;
+}
+/*------------モバイル版------------*/
+@media(max-width:600px){
+
+/*HEADER*/
+.main-nav{
+ font-size:1rem;
+ margin-top:10px;
+}
+.main-nav li{
+ margin:0 20px;
+}
+.home-content{
+ margin-top:20%;
+}
+.home-content p{
+ font-size:17px;
+}
+.page-header{
+ flex-direction:column;
+ align-items:center;
+}
+
+/*NEWS*/
+.news-content{
+ flex-direction:column;
+}
+article,
+aside{
+width:100%;
+}
+article p{
+    font-size:13PX;
+}
+#news .page-title{
+    font-size:35PX;
+    text-align:center;
+    margin-top:30px;
+}
+#news .page-title p{
+    text-align:center;
+}
+aside{
+ margin-top:60px;
+}
+aside p{
+    font-size:13PX;
+}
+.post-info{
+ margin-bottom:30px;
+}
+.post-date{
+ width:70px;
+ height:70px;
+ font-size:1rem;
+}
+.post-date span{
+ font-size:0.875rem;
+ padding-top:2px;
+}
+.post-title{
+ font-size:1.24rem;
+}
+.post-cat{
+ font-size:0.85rem;
+ margin-top:10px;
+}
+.post-title,
+.post-cat{
+ margin-left:80px;
+}
+.ad{
+display:none;
+}
+.grid{
+ display:grid;
+ gap:26px;
+ grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+ margin-top:6%;
+ margin-bottom:50px;
+}
+/*MENU*/
+#menu .page-title{
+    font-size:35PX;
+    text-align:center;
+    margin-top:20px;
+   }
+.menu-content p{
+    font-size:15PX;
+}
+/*CONTACT*/
+#contact .page-title{
+ font-size:30PX;
+ text-align:center;
+ margin-top:20px;
+}
+form div{
+ text-align:center;
+}
+.button{
+    display: block;
+    margin: 0 auto;
+    margin-top:10px;
+}
+form{
+ margin-top:15px;
+}
+/*店舗情報・地図/SNS*/
+#location .wrapper,
+#sns .wrapper{
+ flex-direction: column;
+}
+.location-info,
+.location-map,
+.sns-box{
+ width:100%;
+}
+.sns-box{
+ margin-bottom:30px;
+}
+}
