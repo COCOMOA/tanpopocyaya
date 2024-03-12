@@ -449,16 +449,10 @@ form div{
 .button{
     display: block;
     margin: 0 auto;
-    margin:10px;
+    margin-top:10px;
 }
 form{
  margin-top:15px;
-}
-/*フォーム*/
-input[type="text"],
-input[type="mail"], 
-textarea{
-max-width:100%;
 }
 /*店舗情報・地図/SNS*/
 #location .wrapper,
