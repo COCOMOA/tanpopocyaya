@@ -257,7 +257,7 @@ aside p{
 /*contact*/
 #contact{
  background-image:url(images/contact.jpg);
- min-height:100vh;
+ height:100vh;
 }
 .page-title{
     color:#f2c530;
