@@ -430,6 +430,13 @@ display:none;
 .menu-content p{
     font-size:15PX;
 }
+.big-box{
+ grid-column:auto;
+ grid-row:auto;
+}
+.big-box img{
+ height:auto;
+}
 /*CONTACT*/
 #contact .page-title{
  font-size:30PX;
