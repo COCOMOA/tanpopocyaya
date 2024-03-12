@@ -441,7 +441,7 @@ display:none;
 #contact .page-title{
  font-size:30PX;
  text-align:center;
- margin-top:20px;
+ margin-top:40px;
 }
 form div{
  text-align:center;
@@ -453,6 +453,12 @@ form div{
 }
 form{
  margin-top:15px;
+}
+/*フォーム*/
+input[type="text"],
+input[type="mail"], 
+textarea{
+max-width:100%;
 }
 /*店舗情報・地図/SNS*/
 #location .wrapper,
