@@ -460,4 +460,7 @@ form{
 .sns-box{
  margin-bottom:30px;
 }
+.img{
+  height: 100vh; 
+}
 }
